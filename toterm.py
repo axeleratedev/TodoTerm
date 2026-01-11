@@ -17,7 +17,7 @@ colors = {
     "green": "\033[32m",
     "blue": "\033[34m",
     "yellow": "\033[33m",
-    "bold": "\033[1m",  # Вот он
+    "bold": "\033[1m",  
     "reset": "\033[0m"
 }
 
@@ -30,7 +30,6 @@ while True:
         print("\nNo tasks")
     else:
         for i, task in enumerate(tasks, 1):
-            # Если выполнено — рисуем галочку [X], если нет — пустые скобки [ ]
             current_tag = task["tag"]
             tag_view = f"<{current_tag}>" if current_tag else ""
             status = "[X]" if task["done"] else "[ ]"
