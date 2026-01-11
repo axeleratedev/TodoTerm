@@ -2,6 +2,6 @@ This is a todo sheet right in the terminal, you can create your tasks, mark them
 <img width="1368" height="1056" alt="image" src="https://github.com/user-attachments/assets/f42331da-dd64-4c2f-b9db-d03bbe5a85aa" />
 
 To launch:
-'''bash
+
 python toterm.py
-'''
+
